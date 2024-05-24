@@ -1,0 +1,75 @@
+2024-05-24 19:52:44.700 [info] Started local extension host with pid 17184.
+2024-05-24 19:52:44.966 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-05-24 19:52:45.217 [error] [onecentlin.laravel5-snippets]: Unknown language in `contributes.laravel5-snippets.language`. Provided value: blade
+2024-05-24 19:52:45.218 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2024-05-24 19:52:45.218 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2024-05-24 19:52:47.605 [info] [perf] Render performance baseline is 24ms
+2024-05-24 19:52:47.666 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-05-24 19:52:47.702 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2024-05-24 19:52:47.702 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2024-05-24 19:52:49.073 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-05-24 19:52:50.102 [error] [Extension Host] [auth] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-05-24 20:37:09.239 [error] Invalid regular expression: /use (.+)[TaskController;/g: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[TaskController;/g: Unterminated character class
+    at new RegExp (<anonymous>)
+    at e.default.getModelClass (/root/.vscode/extensions/porifa.laravel-intelephense-1.25.0/dist/extension.js:1:139786)
+    at e.default.provideCompletionItems (/root/.vscode/extensions/porifa.laravel-intelephense-1.25.0/dist/extension.js:1:138208)
+    at ve.provideCompletionItems (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:105868)
+    at /snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:129046
+    at Ae.s (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:120151)
+    at Ae.$provideCompletionItems (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:129032)
+    at c.S (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5505)
+    at c.Q (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5271)
+    at c.M (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:4323)
+    at c.L (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3440)
+    at a.value (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:2227)
+    at o.y (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at a.value (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:8023)
+    at o.y (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at MessagePortMain.<anonymous> (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:6303)
+    at MessagePortMain.emit (node:events:517:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-05-24 20:37:09.244 [error] Invalid regular expression: /use (.+)[TaskController;/g: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[TaskController;/g: Unterminated character class
+    at new RegExp (<anonymous>)
+    at k.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.5/dist/extension.js:1:155571)
+    at k.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.5/dist/extension.js:1:153985)
+    at ve.provideCompletionItems (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:105868)
+    at /snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:129046
+    at Ae.s (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:120151)
+    at Ae.$provideCompletionItems (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:129032)
+    at c.S (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5505)
+    at c.Q (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5271)
+    at c.M (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:4323)
+    at c.L (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3440)
+    at a.value (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:2227)
+    at o.y (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at a.value (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:8023)
+    at o.y (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at MessagePortMain.<anonymous> (/snap/code/159/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:6303)
+    at MessagePortMain.emit (node:events:517:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-05-24 23:14:42.150 [error] Cannot read properties of undefined (reading 'toLowerCase'): TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at new l (vscode-file://vscode-app/snap/code/159/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:684:25982)
+    at G (vscode-file://vscode-app/snap/code/159/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:684:28746)
+    at vscode-file://vscode-app/snap/code/159/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:684:29525
+    at async Promise.all (index 14)
+    at async m (vscode-file://vscode-app/snap/code/159/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:684:29237)
+    at async Promise.all (index 0)
+2024-05-25 00:01:37.097 [error] Cannot read properties of undefined (reading 'toLowerCase'): TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at new l (vscode-file://vscode-app/snap/code/159/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:684:25982)
+    at G (vscode-file://vscode-app/snap/code/159/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:684:28746)
+    at vscode-file://vscode-app/snap/code/159/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:684:29525
+    at async Promise.all (index 14)
+    at async m (vscode-file://vscode-app/snap/code/159/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:684:29237)
+    at async Promise.all (index 0)
